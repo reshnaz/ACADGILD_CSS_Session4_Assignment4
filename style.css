@@ -1,0 +1,26 @@
+
+/*Adjust spacing of the content in webpage from all sides*/
+.mainDiv{
+	margin: 100px auto;
+}
+
+
+/*Formatting the text content appropriately*/
+span{
+	font-size: 20px;
+	color: #5579AC;
+	font-weight: bold;
+}
+
+/*This is the div that contains the bicycle image. The bicycle is animated to move infinitely as required.*/
+.content{
+	position: relative;
+    animation: bicycle 5s infinite;
+    animation-timing-function: linear;
+}
+
+/*Specifying the start and end position of movement*/
+@keyframes bicycle {
+    from {left: 0px;}
+    to {left: 500px;}
+}
